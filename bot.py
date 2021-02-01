@@ -5,7 +5,7 @@ import time
 import sqlite3
 from telebot import types
  
-bot = telebot.TeleBot('1354532151:AAEWM6oXM5uZmo8pA_j15yrxWxW_6m_ceeg')     
+bot = telebot.TeleBot('YOUR_TOKEN')     
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
